@@ -45,9 +45,6 @@ df = pd.DataFrame([{
     "Temperature (°C)": temp,
     "Humidity (%)":humidity,
     "Desctiption":description
-},
-{
-    "City":"Mansoura"
 }])
 
 df.to_excel("weather_data.xlsx",index=False)
